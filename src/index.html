@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouve le nombre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="bg-gray-200">
+    <h1 class="font-Lobster text-teal-600 text-4xl flex justify-center items-center mt-5">Trouve le nombre</h1>
+    <button id="start" class="p-2 rounded-lg text-teal-500 text-2xl  mr-20 ml-5 font-Pacifico hover:bg-teal-300 hover:text-teal-900 ">Start</button>
+    <button id="reset" class="p-2 rounded-lg text-teal-500 text-2xl font-Pacifico hover:bg-teal-300 hover:text-teal-900">Reset</button>
+    <h2 class="absolute right-10 top-12"><time>00:00:00:00</time></h2>
+     <div class=" flex flex-row space-x-10 pt-10 justify-center items-center w-full h-24 container">
+       <button class="level1 bg-teal-500">Niveau 1</button>
+       <button class="level2 bg-teal-500">Niveau 2</button>
+       <button class="level3 bg-teal-500">Niveau 3</button>
+     </div>
+     <div class="relative flex justify-items-center w-full  containerNumber h-96">
+       <input type="text" class="absolute left-1/2 top-5 -translate-x-1/2 text-7xl text-teal-400  w-2/6  h-2/6  text-center drop-shadow-lg rounded-lg " id="number" name="number"  value="" >
+       <button id="go" class="absolute left-1/2 top-40 -translate-x-1/2  bg-teal-900 border-teal-700 h-20 w-20 rounded-full">GO</button>
+     </div>
+     <div class="containerText relative -top-28 ">
+     <div class="hintContainer absolute left-1/2 -translate-x-1/2  z-10 top-10  font-Pacifico text-teal-700 text-3xl" ></div>
+     <div class="helpContainer absolute left-1/2 -translate-x-1/2 text-center h-36 w-96 text-3xl font-Pacifico text-teal-900">
+    </div>
+      <div class="thermHot"><img src="./img/thermometer-hot.png" class="absolute left-3/4 top-5 h-20 hot " alt="Thermomètre température chaude"></div>
+      <div class="thermCold"><img src="./img/thermometer-cold.png " class="absolute left-3/4 top-5 h-20 cold " alt="Thermomètre température froide"></div>
+    </div>
+     
+</body>
+<script src="app.js"></script>
+</html>

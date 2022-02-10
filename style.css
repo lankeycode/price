@@ -1,0 +1,45 @@
+root{
+    box-sizing: border-box;
+    margin : 0 ;
+    padding : 0 ;
+
+}
+.container{
+    visibility : hidden;
+}
+.activeLevel{
+    visibility:visible;
+}
+
+.level1,
+.level2,
+.level3{
+    /* background-color: orange; */
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px
+}
+
+.active{
+    background-color: teal;
+}
+.thermCold{
+    visibility:hidden;
+}
+.thermHot{
+    visibility:hidden;
+}
+/* .hot{
+    visibility:hidden;
+} 
+.cold{
+    visibility:hidden;
+} */
+
+.activeHot{
+    visibility: visible;
+}
+
+.activeCold{
+    visibility:visible;
+}
