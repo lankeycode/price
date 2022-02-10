@@ -29,12 +29,6 @@ root{
 .thermHot{
     visibility:hidden;
 }
-/* .hot{
-    visibility:hidden;
-} 
-.cold{
-    visibility:hidden;
-} */
 
 .activeHot{
     visibility: visible;
@@ -42,4 +36,14 @@ root{
 
 .activeCold{
     visibility:visible;
+}
+
+.up,
+.down{
+margin:auto
+}
+.up{
+ 
+}
+.down{
 }

@@ -152,6 +152,8 @@ function init() {
     level3.classList.remove('active')
     hintContainer.textContent = ''
     helpContainer.textContent = ''
+    coldResult.classList.remove('activeCold')
+    hotResult.classList.remove('activeHot')
     result = 0
     document.getElementById('number').value = ''
     h2.textContent = "00:00:00:00"
